@@ -9,6 +9,7 @@
    * @param span Width of the panel
    * @param datasource Datasource
    * @param fill Fill, integer from 0 to 10
+   * @param fillGradient Fill Gradien, integer from 0 to 10
    * @param linewidth Line Width, integer from 0 to 10
    * @param decimals Override automatic decimal precision for legend and tooltip. If null, not added to the json output.
    * @param decimalsY1 Override automatic decimal precision for the first Y axis. If null, use decimals parameter.
@@ -60,6 +61,7 @@
     title,
     span=null,
     fill=1,
+    fillGradient=0,
     linewidth=1,
     decimals=null,
     decimalsY1=null,
@@ -158,6 +160,7 @@
     },
     lines: lines,
     fill: fill,
+    fillGradient: fillGradient,
     linewidth: linewidth,
     dashes: dashes,
     dashLength: 10,
